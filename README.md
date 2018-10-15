@@ -54,7 +54,3 @@ Mobile
 
 I usually am able to reproduce the ad on mobile with USB Debugging. There are some aspects (stability of the solution) that need to be adressed. Help here might be needed to compare across devices.
 
-```
-Aspect Ratio
-```
-It would be nice to find a way to cut out the black edges that appears on top and below or right/left depending on the DOM's elements's width/height.

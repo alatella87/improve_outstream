@@ -1,0 +1,101 @@
+h1 {
+    font-size: 18px !important;
+    margin-top: 20px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    text-align: center;
+}
+
+.mainDiv {
+    margin-left: 31%;
+    margin-right: 31%;
+}
+
+img {
+    margin-top: 20px;
+    width: 5%;
+}
+
+article {
+    top: 25px;
+    margin-bottom: 50px;
+}
+
+.w3-button {
+    padding: 2px 8px !important;
+}
+
+.w3-black {
+    background-color: #9c3333!important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+#contentElement {
+    height: 360px;
+    color: white;
+    background-color: #27425eef;
+    -webkit-transition: all 5s ease-in-out;
+    vertical-align: middle;
+    transition: all 5s ease-in-out;
+    -webkit-animation: fadein 3s;
+    /* Safari, Chrome and Opera > 12.1 */
+    animation: fadein 3s;
+    /*Safari, Chrome and Opera > 12.1*/
+}
+
+.test {
+    background-color: beige;
+}
+
+#playButton {
+    display: none;
+}
+
+#mbtn {
+    display: none;
+}
+
+p {
+    font-size: 16px !important;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.body {
+    max-width: 1024px;
+}
+
+.markdown-body {
+    font-size: 16px !important;
+    background-color: #3a434d10;
+    padding: 10px !important;
+    padding-left: 20px !important;
+}
+
+.videoAdUiTopBarWithGradients {
+    background
+}

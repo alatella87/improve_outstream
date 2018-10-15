@@ -21,9 +21,14 @@ See an animated result here: https://github.com/wlixw/improve_outstream/blob/mas
 
 ## Solution
 
+```
+The main logic is to be found in the ads.js file 
+-> Needs to be exported in the library solution.
+```
+
 Currently the solution uses : 
 
-- The Intersection Observer API (https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), in order to trigger user interaction when the main container enters the viewport by crossing its edges. 
+- The Intersection Observer API (https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) in order to trigger user interaction when the main container enters the viewport by crossing its edge and fire the <b>playAds</b> function. 
 
 One clear issue here, is that we are using the <i>IsIntersecting</i> entry, and that means every time the viewport intersects the container at its upper and lower edges, the playAd is triggered, which isn't ideal as it restarts the ad. This might also be easy to fix by calling the function once (one of those things I don't know yet how to do elegantly in JS). 
 

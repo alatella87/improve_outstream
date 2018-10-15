@@ -21,6 +21,10 @@ See an animated result here: https://github.com/wlixw/improve_outstream/blob/mas
 
 ## Solution
 
+```
+The main logic is to be found in the ads.js file -> Needs to be exported in the library solution.
+```
+
 Currently the solution uses : 
 
 - The Intersection Observer API (https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), in order to trigger user interaction when the main container enters the viewport by crossing its edges. 

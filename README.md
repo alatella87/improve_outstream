@@ -17,5 +17,4 @@ Once in the downloaded directory, launch the solution with the following command
 ```
 python app.py 
 ```
-<img src="../static/intro.gif" width="40" height="40" />
-![alt text](https://raw.githubusercontent.com/wlixw/improve_outstream/static/intro.gif)
+See an animated result here: https://github.com/wlixw/improve_outstream/blob/master/static/intro.gif 

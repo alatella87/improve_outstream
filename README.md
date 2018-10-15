@@ -29,8 +29,6 @@ One clear issue here, is that we are using the <i>IsIntersecting</i> entry, and 
 
 We might still have to look at other methods, as we might also want to bind the adsManager.pause() method of IMA SDK to any user interaction that would set focus out away from the ad as it is the case in most outstream/in-read solutions I have seen showcased in the web. 
 
-adsManager.pause() with a usual user interaction (button) doesn't seem to pause the ad as needed, in case we would want to bind it to scrolling behavior.
-
 ## Improvements needed
 
 ```

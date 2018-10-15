@@ -22,7 +22,7 @@ See an animated result here: https://github.com/wlixw/improve_outstream/blob/mas
 ## Solution
 
 ```
-The main logic is to be found in the ads.js file -> Needs to be exported in the library solution.
+The main logic is to be found in the <b>ads.js</b> file -> Needs to be exported in the library solution.
 ```
 
 Currently the solution uses : 

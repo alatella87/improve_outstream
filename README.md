@@ -1,6 +1,6 @@
 # Improve Outstream
 
-This is an attempt to build an outstream advertising solution based on IMA SDK.
+This is an attempt to build an outstream advertising solution based on G IMA SDK.
 
 ## Getting Started
 

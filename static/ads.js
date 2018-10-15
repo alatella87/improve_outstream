@@ -24,7 +24,7 @@ var mdiv;
 
 
 
-// -- 1 Intersection Observer API constructor.
+// -- 1 Intersection Observer API constructor
 
 function createObserver() {
 
@@ -39,7 +39,7 @@ function createObserver() {
     observer = new IntersectionObserver(handleIntersect, options);
 
 
-    observer.observe(mainCont);
+    observer.observe(mainContainer);
 
 
 }
@@ -55,15 +55,15 @@ function createObserverOut() {
     };
 
     observer = new IntersectionObserver(handleIntersectOut, options)
-    observer.observe(mainCont);
+    observer.observe(mainContainer);
 
 }
 
-// -- 2 Loading mainCont in the Intersection Observer API as a variable to intercept target in viewport and instantiate the observer.
+// -- 2 Loading mainContainer in the Intersection Observer API as a variable to intercept target in viewport and instantiate the observer.
 
 window.addEventListener("load", function(event) {
 
-    mainCont = document.querySelector("#mainContainer");
+    mainContainer = document.querySelector("#mainContainer");
 
     createObserver();
 
